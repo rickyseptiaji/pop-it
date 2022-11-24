@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+section {
+    height: 100vh;
+}
+.img1 {
+    width: 100%;
+    height: 100%;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.container .btn {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #cbf3f0;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+.btn:hover {
+    color: white;
+    background-color: black;
+}
+.text-head {
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    color: white;
+}
+.nav-wrapper {
+    width: 100%;
+    height: 80px;
+    background-color: #ffbf69;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: flex-start ;
+    align-items: center;
+    height: 100%;
+}
+.nav{
+    list-style-type: none;
+    padding: 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+.nav2 {
+    position: relative;
+    left: 70%;
+    padding-inline-start: 15px;
+    list-style-type: none;
+}
+
+.nav:hover {
+    background-color: white;
+    border-radius: 10px;
+    transition: all ease-in-out .3s;
+}
+.nav2:hover>a {
+    color: black;
+    transition: all ease-in-out .3s;
+    }
+.nav:hover>a {
+color: black;
+transition: all ease-in-out .3s;
+}
+.navlink{
+    color: white;
+    font-size: 1.2em;
+    font-weight: 600;
+    text-decoration: none;
+}
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+    cursor: pointer;
+    position: fixed;
+    bottom: 45px;
+    right: 20px;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    border-radius: 15px;
+}
+.desc {
+margin: 20px 10px 20px 10px;
+}
+.desc-h {
+    text-align: center;
+}
+
+.desc-p {
+    text-align: justify;
+}
+.container-2 {
+    background-color: #cbf3f0;
+}
+.icon {
+    margin: 10px;
+    width: 75px;
+    height: 75px;
+    padding: 4px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.card-item {
+    text-align: center;
+    width: 10%;
+    padding: 24px;
+}
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn-card {
+    background-color: #ffbf69;
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+    border: none;
+    margin-top: 5px;
+    padding: 8px 30px;
+    cursor: pointer;
+}
+.btn-card:hover {
+    color: white;
+}
+.container3 {
+    position: relative;
+    width: 100%;
+    height: 100%;   
+}
+.text-head2 {
+   position: absolute;
+   width: 800px;
+    top: 200px;
+    left: 50px;
+    color: black;
+}
+
+.ctn-img {
+    position: absolute;
+    top: 200px;
+    left: 900px;
+}
+.img2 {
+    height: 300px;
+    width: 300px;
+}
+.footer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+}
+.nav-li2 {
+    display: inline;
+    padding: 10px;
+    margin-right: 210px;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.nav-li2:hover {
+    color: red;
+}
